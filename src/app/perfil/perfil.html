@@ -1,6 +1,6 @@
 <div class="card-perfil">
     <div class="container-imagem">
-        <img [src]="foto" alt="Victor">
+        <img [src]="foto" [attr.alt]="nome" [attr.title]="nome">
     </div>
     <div class="container-informacoes">
         <h2>Nome: {{nome}}</h2>
